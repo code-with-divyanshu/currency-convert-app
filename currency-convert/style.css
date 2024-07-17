@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(90deg, #d16ba5, #86a8e7, #5ffbf1);
+  background: url(./currency.webp);
 }
 
 h2 {
@@ -29,12 +29,14 @@ h2 {
 }
 
 .container {
-  background: linear-gradient(0deg, #11aacc, #7dea88);
+  background: #fef9e8;
   padding: 2rem;
   border-radius: 1rem;
   min-height: 45vh;
-  width: 45vh;
+  width: 50vw;
   margin: 0.75rem;
+  border: 2px solid beige;
+  font-size: 1.5rem;
 }
 
 form {
@@ -52,7 +54,7 @@ input {
 
 form input {
   border: 1px solid lightgray;
-  font-size: 1rem;
+  font-size: 1.5rem;
   height: 3rem;
   padding-left: 0.5rem;
 }
@@ -80,6 +82,7 @@ form input {
   width: 8rem;
   border: 1px solid black;
   border-radius: 0.5rem;
+  background-color: bisque;
 }
 
 .select-container select {
@@ -87,10 +90,10 @@ form input {
   font-weight: 600;
   width: auto;
   margin-left: 0.5rem;
+  background-color: transparent;
 }
 
 .exchange-rate {
-  font-size: 1rem;
   font-weight: 600;
   padding: 2rem 0 0 0.5rem;
 }
@@ -99,16 +102,22 @@ form input {
   margin: 2rem 0 2rem 0;
   text-align: center;
   font-weight: 600;
-  font-size: 1.13rem;
-  background: #0bc9e7;
+  font-size: 1.2rem;
+  background: #f47acb;
   border-radius: 1rem;
   padding: 1.15rem;
 }
 
 form button {
   height: 3rem;
-  background-color: #ab70cf;
+  background-color: #ed6e0c;
   color: #fff;
   font-size: 1.15rem;
   cursor: pointer;
+}
+
+@media (max-width: 468px) {
+  .container {
+    width: 80vw;
+  }
 }
