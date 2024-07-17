@@ -115,6 +115,12 @@ form button {
   color: #fff;
   font-size: 1.15rem;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form button:hover {
+  padding: 10px 0;
+  background-color: #ed0c1f;
 }
 
 @media (max-width: 468px) {
