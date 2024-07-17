@@ -9,6 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: url(./currency.webp);
+  background-size: cover;
 }
 
 h2 {
@@ -33,7 +34,7 @@ h2 {
   padding: 2rem;
   border-radius: 1rem;
   min-height: 45vh;
-  width: 50vw;
+  width: 45vw;
   margin: 0.75rem;
   border: 2px solid beige;
   font-size: 1.5rem;
